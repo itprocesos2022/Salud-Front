@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  frontend-test:
+    restart: unless-stopped
+    image: cchcdev.azurecr.io/frontend-cchc:latest
+    ports:
+      - '80:80'
+    env_file:
+      - .env
+    container_name: fcchc-frontend-test
+    domainname: fcchc-frontend-test
+    stdin_open: true

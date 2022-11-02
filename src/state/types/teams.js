@@ -1,0 +1,4 @@
+export default {
+  GET_TEAMS: 'GET_TEAMS',
+  DELETE_ONE_TEAM: 'DELETE_ONE_TEAM'
+}

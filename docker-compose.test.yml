@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  frontend-test:
+    restart: unless-stopped
+    build:
+      context: .
+    ports:
+      - '80:80'
+    env_file:
+      - .env
+    container_name: develop-frontend-salud-cchc
+    domainname: develop-frontend-salud-cchc
+    stdin_open: true
+    volumes:
+      - .:/app
+      - /app/node_modules

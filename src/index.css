@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+* {
+  font-family: 'Rubik', sans-serif;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+#root {
+  background-color: #f2f3f7;
+  width: 100%;
+  height: 100%;
+}
+.rc-time-picker-panel {
+  z-index: 999999 !important;
+}
+.rc-time-picker-panel-input {
+  font-size: 18px;
+  padding: 20px 16px;
+}
+.rc-time-picker-panel-select {
+  font-size: 17px !important;
+}
+.rc-time-picker {
+  width: 100%;
+}
